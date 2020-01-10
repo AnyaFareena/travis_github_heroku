@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: heroku
+  api_key:
+    secure:
+      put: your API key here
+  app:
+    name: salty-depths-51089
+  on:
+    repo: AnyaFareena/travis_github_heroku
+env:
+  global:
+    secure: BoSXpfKoH49K4KbiD0bzHacY0fY56yj1lF/9XhjUTAjLKy21q5e8P64EZYGB2F98AplwIF+EBYmZM/TqnIP8ntj+9mUWTYhLCYpz4fM97R07sEDLAAUvxKPx8ojsdrjDcuB7CR4LtjE/ISyPeLlTBGdUCYRNuZqI1Xm+zzUx3/OZiOjS4v0daXTKP4wY5gFy3d20vLbtkocuwG4BExzslKfGUyJxzIhz4gSwo3zZ6F35jkRutCrvV97dzGWrsicfabKgLHtPxsOEF1PFFReXXQzxLpAsBLksol/HfNS79Pg8oOtLN5LUi/qOarIs4yr8LPqVlCXozheu36qduPsLfLYZM96WinodKDm7he4LvuNETPUxTz29RWPSH3a9fvh7YlFBL5n441Qz18It5lC4GjYvakQ4vnOTEXcPvGLVJt/Aq8u9+pKDIQ8porDYVeDmh9qyMBsVkcuE3OgN2jR11Jaqd07rpIA4kAL3jeq7ofxjC/4Iiqa8VDUchFuHpjkGk/WBnf1yU/G+BVMbm6ghQu5zZrzWD4MPxQ/8neKEiPZ7sEZnovUQyef1zS8PTkBJQtTrj60DgrFiQ8kvoIDqPPehGxa4fgt5tcq2gDLTst6fOwqBY+DmOLWB1YKiYHVN4g/KBimenWMR2Fg84ic0sLdb+qu3v40+dNbg/sDVhXI=
