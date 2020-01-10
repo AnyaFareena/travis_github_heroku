@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - stable
+deploy:
+  provider: heroku
+  api_key:
+    secure:
+      put: Vmg980X+XB7Zg2EWyNNAgMsexvbxawNqe/xKjh57nyOQrgAFLlemSTPTOJcseD1q7OzZeJpWHA59fmStWt+4zrURhDfoMz+PIzlCpCNTe2Tsu9LV5+mpbSVFGjdraW7daSUX88hWKZfmGrZykaKJLVHAmWUuawS+H6WIc9BLDzuqVrkcRVEE8A0vOSgmOY0QyAsHX7AgWUb7xr0lE9WtMmMtdoBTexjC40MBsW7FerYHroO69PsDN3fO+M7P5PCSWHbHbsjNjndo9QF60EBWFpyBg48rK1dQP8vQF6RArbyOZS9TW0VPe+VO12ZECqDc0+5pqoRjbwov8EdIKD5nM+w0dKUh3LzqjIXJqzjkXW/crW8eOXwKyvQxYyxRMe2TdDjUKxJ8hsG0GHFRap+LfYaCEqB7koYyDWvJCziSodWAlxxn6AcQTerw4QmydRvZ9AhDFcO7tBR0+Nedppv6EQ6CK6cbJ1JL05a2E9x7b3KuLgDcvebY9TvgShEyjSmSmjDkpYqR/dSb9wwsWg2JQgWLkWAut+qaR9m3vLBJSC10HFv8U9aAVwTC2+6ivIirqbsK0iR+7Sp/lkpJeJiIJ95hHblc2ncDdRaGl3ciALmv6EkmmyPBvLcAawjcWp8E6bAcni0W8PZw2QlxGLwgoPmVoWEKcy9goQa1EynzxHY=
+  app:
+    name: salty-depths-51089
+  on:
+    repo: AnyaFareena/travis_github_heroku
